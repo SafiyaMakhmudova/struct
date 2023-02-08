@@ -115,12 +115,7 @@ void show(FLIGHT *s, int lenght) {
 int main () {
 
 	FLIGHT fly[10];
-	
-	char t='9', y='7';
-	char o = t+y;
-	printf("---%i", o);
 	int size=0,lenght=0, number;
-	
 	
 	strcpy(fly[0].fligh_no, "RY236");
 	strcpy(fly[0].departure, "8:30");
